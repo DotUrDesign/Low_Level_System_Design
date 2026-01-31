@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterDP/AdapterDP.iml" filepath="$PROJECT_DIR$/AdapterDP/AdapterDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" filepath="$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuilderDP_1/BuilderDP_1.iml" filepath="$PROJECT_DIR$/BuilderDP_1/BuilderDP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecoratorDP/DecoratorDP.iml" filepath="$PROJECT_DIR$/DecoratorDP/DecoratorDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryDP/FactoryDP.iml" filepath="$PROJECT_DIR$/FactoryDP/FactoryDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" filepath="$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD_Practice.iml" filepath="$PROJECT_DIR$/LLD_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Protoype_Registry/Protoype_Registry.iml" filepath="$PROJECT_DIR$/Protoype_Registry/Protoype_Registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/SOLID/SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID_1/SOLID_1.iml" filepath="$PROJECT_DIR$/SOLID_1/SOLID_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonDP_1/SingletonDP_1.iml" filepath="$PROJECT_DIR$/SingletonDP_1/SingletonDP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton_Design_Pattern/Singleton_Design_Pattern.iml" filepath="$PROJECT_DIR$/Singleton_Design_Pattern/Singleton_Design_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicTacToe_SystemDesign1/TicTacToe_SystemDesign1.iml" filepath="$PROJECT_DIR$/TicTacToe_SystemDesign1/TicTacToe_SystemDesign1.iml" />
+    </modules>
+  </component>
+</project>
