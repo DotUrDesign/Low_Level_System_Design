@@ -10,12 +10,14 @@
       <module fileurl="file://$PROJECT_DIR$/FactoryDP/FactoryDP.iml" filepath="$PROJECT_DIR$/FactoryDP/FactoryDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" filepath="$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/LLD_Practice.iml" filepath="$PROJECT_DIR$/LLD_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parking Lot System Design1/Parking Lot System Design1.iml" filepath="$PROJECT_DIR$/Parking Lot System Design1/Parking Lot System Design1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Protoype_Registry/Protoype_Registry.iml" filepath="$PROJECT_DIR$/Protoype_Registry/Protoype_Registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/SOLID/SOLID.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID_1/SOLID_1.iml" filepath="$PROJECT_DIR$/SOLID_1/SOLID_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonDP_1/SingletonDP_1.iml" filepath="$PROJECT_DIR$/SingletonDP_1/SingletonDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton_Design_Pattern/Singleton_Design_Pattern.iml" filepath="$PROJECT_DIR$/Singleton_Design_Pattern/Singleton_Design_Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/TicTacToe_SystemDesign1/TicTacToe_SystemDesign1.iml" filepath="$PROJECT_DIR$/TicTacToe_SystemDesign1/TicTacToe_SystemDesign1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jbkjbl/jbkjbl.iml" filepath="$PROJECT_DIR$/jbkjbl/jbkjbl.iml" />
     </modules>
   </component>
 </project>
