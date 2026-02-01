@@ -1,17 +1,20 @@
+import DTOs.IssueBillRequestDTO;
+import DTOs.IssueBillResponseDTO;
 import DTOs.IssueTicketRequestDTO;
 import DTOs.IssueTicketResponseDTO;
+import controllers.BillController;
 import controllers.TicketController;
 import enums.SpotAssignmentStrategyType;
 import enums.VehicleType;
+import models.Bill;
 import models.Vehicle;
-import repository.GateRepository;
-import repository.ParkingLotRepository;
-import repository.TicketRepository;
-import repository.VehicleRepository;
+import repository.*;
+import services.BillService;
 import services.TicketService;
 
 public class Client {
     public static void main(String[] args) {
+        // ISSUING THE TICKET
         VehicleRepository vehicleRepository = new VehicleRepository();
         GateRepository gateRepository = new GateRepository();
         ParkingLotRepository parkingLotRepository = new ParkingLotRepository();
@@ -35,6 +38,22 @@ public class Client {
         issueTicketRequestDTO.setSpotAssignmentStrategyType(SpotAssignmentStrategyType.NEAREST);
 
         IssueTicketResponseDTO issueTicketResponseDTO = ticketController.issueTicket(issueTicketRequestDTO);
+
+        // ISSUING THE BILL
+        BillRepository billRepository = new BillRepository();
+
+        BillService billService = new BillService(
+                gateRepository,
+                billRepository
+        );
+
+        BillController billController = new BillController(billService);
+
+        IssueBillRequestDTO issueBillRequestDTO = new IssueBillRequestDTO();
+        issueBillRequestDTO.setTicket(issueTicketResponseDTO.getTicket());
+        issueBillRequestDTO.setExitGateId(3L);
+
+        IssueBillResponseDTO issueBillResponseDTO = billController.issueBill(issueBillRequestDTO);
 
     }
 }

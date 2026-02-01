@@ -2,6 +2,7 @@ package models;
 
 import enums.ParkingLotStatus;
 import enums.SpotAssignmentStrategyType;
+import strategies.FeeCalculationAlgorithm.FeeCalculationAlgo;
 import strategies.SpotAssignmentAlgorithm.SpotAssignmentAlgo;
 
 import java.util.List;
@@ -13,6 +14,7 @@ public class ParkingLot extends BaseModel{
     private ParkingLotStatus parkingLotStatus;
     private ParkingLotManager manager;
     private SpotAssignmentStrategyType spotAssignmentStrategyType;
+    private FeeCalculationAlgo feeCalculationAlgo;
 
     public SpotAssignmentStrategyType getSpotAssignmentStrategyType() {
         return spotAssignmentStrategyType;
