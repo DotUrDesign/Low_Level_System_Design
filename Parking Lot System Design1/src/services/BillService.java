@@ -62,7 +62,7 @@ public class BillService {
 
         FeeCalculationAlgo feeCalculationAlgo = FeeCalculationStrategyFactory.getFeeCalculationAlgo(vehicleType);
 
-        int amount = feeCalculationAlgo.calculateAmount();
+        int amount = feeCalculationAlgo.calculateAmount(entryTime, bill.getExitTime());
 
         bill.setAmount(amount);
 
