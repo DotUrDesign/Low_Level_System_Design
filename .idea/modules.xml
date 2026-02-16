@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" filepath="$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuilderDP_1/BuilderDP_1.iml" filepath="$PROJECT_DIR$/BuilderDP_1/BuilderDP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concurrency-1/Concurrency-1.iml" filepath="$PROJECT_DIR$/Concurrency-1/Concurrency-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorDP/DecoratorDP.iml" filepath="$PROJECT_DIR$/DecoratorDP/DecoratorDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryDP/FactoryDP.iml" filepath="$PROJECT_DIR$/FactoryDP/FactoryDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" filepath="$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" />
