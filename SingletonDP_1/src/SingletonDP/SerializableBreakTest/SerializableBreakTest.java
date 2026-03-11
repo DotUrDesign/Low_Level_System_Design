@@ -20,12 +20,12 @@ public class SerializableBreakTest {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         DBConnection1 DBConn1 = DBConnection1.getConnection();
 
-        // serialize the DBConn1
+        // serialize the DBConn1 - convert the java object(dbConn1) into bytes and store it inside the db.obj file
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("db.obj"));
         oos.writeObject(DBConn1);
         oos.close();
 
-        // deserialize the Serialized Object
+        // deserialize the Serialized Object - extracting the serialized java object from the db.obj file and deserializing it.
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("db.obj"));
         DBConnection1 DBConn2 = (DBConnection1) ois.readObject();
         ois.close();
