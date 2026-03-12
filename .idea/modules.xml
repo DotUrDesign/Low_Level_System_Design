@@ -4,11 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdapterDP/AdapterDP.iml" filepath="$PROJECT_DIR$/AdapterDP/AdapterDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" filepath="$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterDP_2/AdapterDP_2.iml" filepath="$PROJECT_DIR$/AdapterDP_2/AdapterDP_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuilderDP_1/BuilderDP_1.iml" filepath="$PROJECT_DIR$/BuilderDP_1/BuilderDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuilderDP_2/BuilderDP_2.iml" filepath="$PROJECT_DIR$/BuilderDP_2/BuilderDP_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Concurrency-1/Concurrency-1.iml" filepath="$PROJECT_DIR$/Concurrency-1/Concurrency-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorDP/DecoratorDP.iml" filepath="$PROJECT_DIR$/DecoratorDP/DecoratorDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecoratorDP_1/DecoratorDP_1.iml" filepath="$PROJECT_DIR$/DecoratorDP_1/DecoratorDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryDP/FactoryDP.iml" filepath="$PROJECT_DIR$/FactoryDP/FactoryDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" filepath="$PROJECT_DIR$/FactoryDP_1/FactoryDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryDP_2/FactoryDP_2.iml" filepath="$PROJECT_DIR$/FactoryDP_2/FactoryDP_2.iml" />
@@ -21,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/SingletonDP_1/SingletonDP_1.iml" filepath="$PROJECT_DIR$/SingletonDP_1/SingletonDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonDP_2/SingletonDP_2.iml" filepath="$PROJECT_DIR$/SingletonDP_2/SingletonDP_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton_Design_Pattern/Singleton_Design_Pattern.iml" filepath="$PROJECT_DIR$/Singleton_Design_Pattern/Singleton_Design_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrategyDP/StrategyDP.iml" filepath="$PROJECT_DIR$/StrategyDP/StrategyDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/TicTacToe_SystemDesign1/TicTacToe_SystemDesign1.iml" filepath="$PROJECT_DIR$/TicTacToe_SystemDesign1/TicTacToe_SystemDesign1.iml" />
     </modules>
   </component>
