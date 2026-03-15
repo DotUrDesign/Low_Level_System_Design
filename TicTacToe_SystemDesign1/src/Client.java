@@ -1,4 +1,4 @@
-import controllers.GameController;
+import controller.GameController;
 import enums.GameState;
 import enums.PlayerType;
 import exceptions.BotCountInvalidException;

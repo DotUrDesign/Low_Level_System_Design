@@ -1,10 +1,9 @@
-package controllers;
+package controller;
 
 import DTOs.IssueBillRequestDTO;
 import DTOs.IssueBillResponseDTO;
 import enums.ResponseStatus;
 import models.Bill;
-import models.Ticket;
 import services.BillService;
 
 public class BillController {

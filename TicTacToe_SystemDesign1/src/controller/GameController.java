@@ -1,9 +1,8 @@
-package controllers;
+package controller;
 
 import exceptions.BotCountInvalidException;
 import exceptions.PlayerCountInvalidException;
 import exceptions.UniqueSymbolInvalidException;
-import models.Cell;
 import models.Game;
 import models.Player;
 import strategy.WinningStrategies.WinningStrategy;
