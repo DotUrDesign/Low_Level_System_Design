@@ -5,8 +5,8 @@ import model.enums.BillStatus;
 import java.util.List;
 
 public class Bill extends BaseModel {
-    private String billNo;
-    private List<Payment> payments;
+    private String billNo;  // done
+    private List<Payment> payments; // done
     private Gate gate;  // done
     private Operator operator;  // done
     private BillStatus billStatus;  // done

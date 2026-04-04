@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/API Rate Limiter/API Rate Limiter.iml" filepath="$PROJECT_DIR$/API Rate Limiter/API Rate Limiter.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP/AdapterDP.iml" filepath="$PROJECT_DIR$/AdapterDP/AdapterDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" filepath="$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP_2/AdapterDP_2.iml" filepath="$PROJECT_DIR$/AdapterDP_2/AdapterDP_2.iml" />
