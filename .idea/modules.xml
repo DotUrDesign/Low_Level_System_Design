@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/API Rate Limiter/API Rate Limiter.iml" filepath="$PROJECT_DIR$/API Rate Limiter/API Rate Limiter.iml" />
       <module fileurl="file://$PROJECT_DIR$/API Rate Limiter Ultimatum/API Rate Limiter Ultimatum.iml" filepath="$PROJECT_DIR$/API Rate Limiter Ultimatum/API Rate Limiter Ultimatum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM Machine System Design/ATM Machine System Design.iml" filepath="$PROJECT_DIR$/ATM Machine System Design/ATM Machine System Design.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP/AdapterDP.iml" filepath="$PROJECT_DIR$/AdapterDP/AdapterDP.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" filepath="$PROJECT_DIR$/AdapterDP_1/AdapterDP_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdapterDP_2/AdapterDP_2.iml" filepath="$PROJECT_DIR$/AdapterDP_2/AdapterDP_2.iml" />
