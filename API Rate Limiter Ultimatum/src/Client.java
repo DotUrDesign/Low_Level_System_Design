@@ -12,7 +12,7 @@ public class Client {
         based on the membership of the user
             => configuration of the rate limiter
                    - how many requests per how many seconds should be accepted
-                   - like = for free members 10reqs/60secs
+                   - like => for free members 10reqs/60secs
                    - or for premium members 100 reqs/60secs
                     and
             => type of the rate limiter

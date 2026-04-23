@@ -1,10 +1,8 @@
 package Code_2;
 
-public class HelloWorldPrinter implements Runnable{
+public class HelloWorldPrinter extends Thread {
     @Override
     public void run() {
-        //            Thread.sleep(1000);
-        System.out.println(Thread.currentThread().getName() + " - Helloworld");
-
+        System.out.println(Thread.currentThread().getName() + " : Hello world");
     }
 }

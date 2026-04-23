@@ -24,7 +24,7 @@ public class FixedWindowRateLimiter extends RateLimiter {
         Because each user's actions are independent from other user.
         Meaning we should block user1, if user2 enters the piece of code.
         User1 and user2 are independent.
-        The point should be --> we should allow multiple parallel requests from the same
+        The point should be --> we shouldn't allow multiple parallel requests from the same
         user at the same time.
         But at the same time, we can allow different users for a course of action.
 

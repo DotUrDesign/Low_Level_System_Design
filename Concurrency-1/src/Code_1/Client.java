@@ -2,14 +2,12 @@ package Code_1;
 
 public class Client {
     public static void main(String[] args) {
-        Runnable r1 = new HelloWorldPrinter();
-        Thread t1 = new Thread(r1);
-        t1.start();
-
-        System.out.println(Thread.currentThread().getName() + " - Client");
-
-        Runnable r2 = new HelloWorldPrinter();
-        Thread t2 = new Thread(r2);
-        t2.start();
+        Runnable rh = new HelloWorldPrinter();
+        // The constructor of the thread class expects a runnable class as an argument.
+        Thread t = new Thread(rh);
+        t.start(); // this will be promoting multithreading -> meaning the class which is
+        // implemented by the runnable will be running in a separate thread.
+        System.out.println("Main thread : " + Thread.currentThread().getName());
+        // t.run(); // this will be executed by the main thread => no multithreading
     }
 }
