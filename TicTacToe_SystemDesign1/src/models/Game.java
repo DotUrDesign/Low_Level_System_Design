@@ -233,11 +233,12 @@ public class Game {
         }
 
         public void validateUniqueSymbols() throws UniqueSymbolInvalidException {
-            HashSet<String> symbols = new HashSet<>();
+            HashSet<Character> symbols = new HashSet<>();
             for(Player player : players) {
-                if(symbols.contains(player.getSymbol())) {
+                if(symbols.contains(player.getSymbol().getSymbolChar())) {
                     throw new UniqueSymbolInvalidException("There is a repeated symbol choosen among the players.");
                 }
+                symbols.add(player.getSymbol().getSymbolChar());
             }
         }
 
